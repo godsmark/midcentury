@@ -1,0 +1,182 @@
+/* 
+
+Styles for MidCentury Furniture
+Sept 26 2014
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Questrial|Quicksand|Marvel|Droid+Serif);
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+* {
+ 	margin: 0px;
+ 	padding: 0px;
+ 	line-height: 1.3em;
+}
+
+address {
+	font-style: normal;
+	font-family: 'Droid Serif', serif;
+	font-size: 1.4em; 
+	color: black;
+}
+
+address a:hover {
+	color:gray;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: black;
+}
+
+#blog-blurb {
+	color: white;
+	font-family: 'Droid Serif', serif;
+	text-align: left;
+	font-size: 1.4em; 
+}
+
+body {
+	background: url('../fabric_of_squares_gray/fabric_of_squares_gray.png') fixed;
+	font-size: 62.5%; 
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.date {
+	font-family: 'Droid Serif', serif;
+	font-size: 1.6em; 
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.footer {
+	margin: 0px auto;
+	width: 85%;
+	text-align: center;
+	padding: 50px 0px;
+}
+
+form {
+	padding: 5px 0px;
+}
+
+#header-logo {
+	margin: 40px 0px;
+}
+
+h1 {
+	color: rgba(255,255,255,1);
+	font-family: 'Questrial', sans-serif;
+	font-weight: 100;
+	text-align: left;
+	font-size: 2.7em; 
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-family: 'Questrial', sans-serif;
+	font-size: 5em; 
+	text-align: center;
+}
+
+img {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+
+input[type=text] {
+	font-size: 2em;
+	font-family: 'Questrial', sans-serif;
+}
+
+input:focus {
+	outline: none;
+}
+
+.main-container {
+	float: right;
+	width: 75%;
+}
+
+.post-content {
+	background: rgba(255,255,255,.96);
+	padding: 30px 0px;
+}
+
+.post-header {
+	padding: 5% 0%;
+}
+
+.post-text {
+	font-family: 'Droid Serif', serif;
+	font-size: 1.6em; 
+	padding: 20px 50px;
+	line-height: 1.5;
+}
+
+#recent-posts {
+	color: white;
+	padding: 5px 0px;
+	font-family: 'Droid Serif', serif;
+	font-size: 1.6em;
+}
+
+#search-box {
+	width: 80%;
+	border: 3px solid white;
+	padding: 5px 10px 5px 30px;
+	background: url('../images/search-gray.png') no-repeat left white;
+}
+
+.sidebar-container {
+	background-color: #808080;
+	float: left;
+	width: 25%;
+	position: fixed;
+	height: 100%;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	font-family: 'Droid Serif', serif;
+	padding: 5px 0px;
+	font-size: 1.6em; 
+}
+
+ul li a:before {
+	content: "\25b8  ";
+	color: white;
+}
+
+ul li a {
+	color: white;
+}
+
+
