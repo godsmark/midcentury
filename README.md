@@ -35,6 +35,6 @@ The client also researched other blogs and suggested the following elements
 * Email (hello@midcenturytherapy.com)
 * Address (Midcentury Envy, 670 Broadway, New York, NY 10012)
 
-The objective of this project was to take the list of suggested elements and figure out what was most important, less important, and which could be discarded.
+The objective of this project was to take the list of suggested elements and figure out what was most important, less important, and what could be discarded.
 
   
